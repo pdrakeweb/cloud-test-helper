@@ -1,0 +1,13 @@
+{
+    "name": "acquia/cloud-test-helper",
+    "description": "Test dependency for projects using Acquia Cloud hosting.",
+    "authors": [
+        {
+            "name": "Acquia",
+            "email": "engineering@acquia.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "~4.0.11"
+    }
+}
