@@ -8,4 +8,8 @@ class PhpBuildTest extends PHPUnit_Framework_TestCase
     $actual_exts = array_fill_keys(get_loaded_extensions(), true);
     $this->assertEquals($expected_exts, $actual_exts);
   }
+
+  public function testPhpConfig() {}
+  public function testPhpFpmConfig() {}
+  public function testPerconaMajorVersion() {}
 }
